@@ -7,6 +7,7 @@ import Navbar from "./components/Navbar";
 import Home from "./pages/Home";
 import Dashboard from "./pages/Dashboard";
 import Tasks from "./pages/Tasks";
+import TasksMenu from "./pages/TasksMenu";
 import TaskDetails from "./pages/TaskDetails";
 import About from "./pages/About";
 import NotFound from "./pages/NotFound";
@@ -33,6 +34,11 @@ export default function App() {
         <Route 
         path="/tasks" 
         element={<Tasks />}
+        />
+
+        <Route 
+        path="/tasksMenu" 
+        element={<TasksMenu />}
         />
 
         <Route 
